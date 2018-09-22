@@ -1,0 +1,6 @@
+node_modules
+dist
+npm-debug.log
+.idea
+types.d.ts
+ts-files.txt

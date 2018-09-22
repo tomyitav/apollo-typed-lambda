@@ -1,0 +1,1 @@
+// declare module 'apollo-cache-control/dist/index.d.s/GraphQLResolveInfo';
