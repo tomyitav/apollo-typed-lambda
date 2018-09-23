@@ -23,17 +23,10 @@ npm install
 ## Starting the server locally
 
 ```
-npm run build
-npm start
-```
-
-The server will run on port 8080. You can change this by editing config file.
-
-It is also possible to run locally by using serverless-offline plugin:
-
-```
 npm run sls:offline
 ```
+
+The server will run on port 3000. You can change this by editing config file.
 
 ## Run server in production on AWS lambda :rocket:
 
@@ -41,7 +34,7 @@ npm run sls:offline
 npm run sls:deploy
 ```
 
-That's is!! The server will be deployed as a lambda
+That's it! The server will be deployed as a lambda on AWS
 
 ## Connect to the server from client app
 

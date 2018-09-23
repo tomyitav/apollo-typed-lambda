@@ -25,7 +25,6 @@
   "dependencies": {
     "apollo-cache-control": "^0.2.2",
     "apollo-server-core": "^2.0.0",
-    "apollo-server-lambda": "^2.0.3",
     "aws-lambda": "^0.1.2",
     "body-parser": "^1.15.2",
     "core-js": "^2.5.1",

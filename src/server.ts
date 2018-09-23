@@ -46,6 +46,7 @@ export class Server {
     }
 
     private initRoutes() {
+        const graphqlRoutePrefix = process.env.IS_OFFLINE ? '' : '/dev';
         this.express.use(cors());
         this.express.use('/graphql', bodyParser.json(), graphqlExpress({
             schema,
@@ -53,7 +54,7 @@ export class Server {
         }));
 
         this.express.use('/graphiql', graphiqlExpress({
-            endpointURL: '/graphql'
+            endpointURL: graphqlRoutePrefix + '/graphql'
         }));
 
         this.express.use('/schema', (req, res) => {
