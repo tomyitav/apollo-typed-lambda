@@ -15,7 +15,9 @@
     "dev": "tsc --watch & nodemon dist",
     "test": "tsc && mocha dist/**/*.spec.js",
     "lint": "eslint src --ext ts",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "sls:deploy": "npm run buid && sls deploy",
+    "sls:offline": "npm run buid && sls offline start"
   },
   "keywords": [],
   "author": "",
@@ -61,6 +63,7 @@
     "nodemon": "1.11.0",
     "react-dom": "^15.6.0",
     "rimraf": "^2.6.2",
+    "serverless-offline": "^3.25.14",
     "supertest": "3.0.0",
     "tsc": "1.20150623.0",
     "typescript": "^3.0.1",
