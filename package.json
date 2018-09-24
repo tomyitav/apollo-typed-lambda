@@ -27,7 +27,7 @@
     "core-js": "^2.5.1",
     "cors": "^2.8.0",
     "express": "4.14.0",
-    "graphql": "^0.13.0",
+    "graphql": "^14.0.2",
     "graphql-code-generator": "^0.8.13",
     "graphql-server-express": "^1.4.0",
     "graphql-tools": "^2.18.0",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.0.38",
-    "@types/graphql": "0.11.7",
+    "@types/graphql": "^14.0.1",
     "@types/lodash": "^4.14.100",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.22",
