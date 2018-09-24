@@ -1,6 +1,6 @@
 # apollo-typed-lambda
 
-Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda
+Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda, using:
 
 + typescript
 + serverless-http
