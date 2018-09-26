@@ -4,6 +4,7 @@ Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-type
 
 + typescript
 + serverless-http
++ serverless-offline
 + [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator)
 + merge-graphql-schemas
 + Dependency injection with `injection-js`
