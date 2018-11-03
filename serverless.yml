@@ -2,6 +2,7 @@ service: serverless-graphql
 
 plugins:
   - serverless-offline
+  - serverless-dotenv-plugin
 
 provider:
   name: aws
