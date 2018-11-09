@@ -40,9 +40,13 @@ export class Server {
     }
 
     private createApolloServer() {
+        const graphqlRoutePrefix = process.env.IS_OFFLINE ? '' : '/dev';
         this.apolloServer = new ApolloServer({
             schema,
-            context: this.context
+            context: this.context,
+            playground: {
+                endpoint: graphqlRoutePrefix + '/graphql'
+            }
         });
     }
 }
