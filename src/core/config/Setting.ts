@@ -11,8 +11,7 @@ export class Setting extends AbstractSetting {
         super();
         this.settings = {
             server: {
-                port: process.env.serverPort || 8080,
-                wsPort: process.env.serverWsPort || 8090
+                port: process.env.serverPort || "8080",
             },
             log: {
                 filename: "log.txt",

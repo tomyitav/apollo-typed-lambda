@@ -16,11 +16,5 @@ functions:
     events:
       - http:
           path: graphql
-          method: post
+          method: any
           cors: true
-  playground:
-    handler: lambda.handler
-    events:
-      - http:
-          path: graphiql
-          method: get
