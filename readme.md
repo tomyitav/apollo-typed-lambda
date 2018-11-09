@@ -3,7 +3,7 @@
 Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda, using:
 
 + typescript
-+ serverless-http
++ apollo-server 2
 + serverless-offline
 + [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator)
 + merge-graphql-schemas
@@ -12,7 +12,7 @@ Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-type
 This project demonstrates how to easily deploy a server, based on the [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed)
 starter, as AWS lambda.
 
-Execute queries to the demo server [here](https://sbzzpx6y07.execute-api.us-east-1.amazonaws.com/dev/graphiql)
+Execute queries to the demo server [here](https://sbzzpx6y07.execute-api.us-east-1.amazonaws.com/dev/graphql)
 
 ## Installation
 
