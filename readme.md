@@ -32,9 +32,10 @@ npm run sls:offline
 The server will run on port 3000. You can change this by editing config file.
 
 ## Run server in production on AWS lambda :rocket:
+First, make sure you have the [serverless platform](https://serverless.com/) installed. Then, execute the following command:
 
 ```
-npm run sls:deploy
+npm run deploy
 ```
 
 That's it! The server will be deployed as a lambda on AWS

@@ -16,8 +16,8 @@
     "test": "tsc && mocha dist/**/*.spec.js",
     "lint": "eslint src --ext ts",
     "tsc": "tsc",
-    "sls:deploy": "npm run build && sls deploy",
-    "sls:offline": "npm run build && npm start"
+    "sls:offline": "npm run build && npm start",
+    "deploy": "npm run build && sls deploy"
   },
   "keywords": [],
   "author": "",
