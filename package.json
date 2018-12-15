@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/graphql": "14.0.3",
     "@types/lodash": "4.14.117",
-    "@types/mocha": "2.2.41",
+    "@types/mocha": "2.2.48",
     "@types/node": "8.10.37",
     "eslint": "4.0.0",
     "eslint-config-airbnb-base": "11.2.0",
