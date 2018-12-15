@@ -48,7 +48,7 @@
     "nodemon": "1.11.0",
     "rimraf": "2.6.2",
     "serverless-dotenv-plugin": "2.0.1",
-    "serverless-offline": "3.25.14",
+    "serverless-offline": "3.31.3",
     "supertest": "3.0.0",
     "tsc": "1.20150623.0",
     "typescript": "3.0.1",
