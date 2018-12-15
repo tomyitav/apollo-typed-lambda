@@ -52,6 +52,6 @@
     "supertest": "3.0.0",
     "tsc": "1.20150623.0",
     "typescript": "3.0.1",
-    "typescript-eslint-parser": "3.0.0"
+    "typescript-eslint-parser": "21.0.2"
   }
 }
