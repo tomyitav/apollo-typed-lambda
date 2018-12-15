@@ -45,7 +45,7 @@
     "graphql-code-generator": "0.12.5",
     "graphql-codegen-typescript-template": "0.12.5",
     "mocha": "3.4.2",
-    "nodemon": "1.11.0",
+    "nodemon": "1.18.9",
     "rimraf": "2.6.2",
     "serverless-dotenv-plugin": "2.0.1",
     "serverless-offline": "3.25.14",
