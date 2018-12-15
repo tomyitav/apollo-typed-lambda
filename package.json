@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/graphql": "14.0.3",
-    "@types/lodash": "4.14.117",
+    "@types/lodash": "4.14.119",
     "@types/mocha": "2.2.41",
     "@types/node": "8.10.37",
     "eslint": "4.0.0",
