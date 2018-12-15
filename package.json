@@ -38,7 +38,7 @@
     "@types/lodash": "4.14.117",
     "@types/mocha": "2.2.41",
     "@types/node": "8.10.37",
-    "eslint": "4.0.0",
+    "eslint": "4.19.1",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-promise": "3.5.0",
