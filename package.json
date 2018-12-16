@@ -26,7 +26,7 @@
     "apollo-server-lambda": "2.2.0",
     "core-js": "2.5.7",
     "graphql": "14.0.2",
-    "graphql-tools": "4.0.2",
+    "graphql-tools": "4.0.3",
     "injection-js": "2.2.1",
     "merge-graphql-schemas": "1.5.7",
     "reflect-metadata": "0.1.10",
