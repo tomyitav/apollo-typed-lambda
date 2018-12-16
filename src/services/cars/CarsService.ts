@@ -1,16 +1,13 @@
-import {AbstractCarsModel} from "./AbstractCarsModel";
 import {Car} from "../../interfaces/types";
 import {AbstractLogger} from "../../core/logger/AbstractLogger";
 import {Injectable} from "injection-js";
 
 @Injectable()
-export class CarsModel extends AbstractCarsModel{
+export class CarsService {
 
     private carList: Car[] = [{_id: "1234", name: "sampleCar1"},
                               {_id: "1244", name: "sampleCar2"}];
-    constructor(private logger: AbstractLogger) {
-        super();
-    }
+    constructor(private logger: AbstractLogger) {}
 
     public getCars(carName?: string): Promise<Array<Car>> {
         this.logger.info('Returning all cars...');

@@ -2,23 +2,22 @@ import {ApolloServer} from 'apollo-server-lambda';
 import schema from "./graphql/schema/schema";
 import {AbstractLogger} from "./core/logger/AbstractLogger";
 import {AbstractSetting} from "./core/config/AbstractSetting";
-import {AbstractCarsModel} from "./model/cars/AbstractCarsModel";
-import {AbstractTrainsModel} from "./model/trains/AbstractTrainsModel";
-import {AppContext} from "./interfaces/AppContext";
+import {IAppContext} from "./interfaces/IAppContext";
 import {Injectable, Injector} from "injection-js";
+import {getContext} from "./context";
 
 @Injectable()
 export class Server {
 
     private apolloServer: ApolloServer;
     private graphqlPort: number;
-    private context: AppContext;
+    private context: IAppContext;
     constructor(private logger: AbstractLogger, private setting: AbstractSetting) {
 
     }
 
     public initContext(injector: Injector) {
-        this.context = this.getAppContext(injector);
+        this.context = getContext(injector);
     }
 
     public initServer(injector: Injector) {
@@ -30,13 +29,6 @@ export class Server {
 
     public getApolloInstance(): ApolloServer {
         return this.apolloServer;
-    }
-
-    private getAppContext(injector: Injector): AppContext {
-        return {
-            carsModel: injector.get(AbstractCarsModel),
-            trainsModel: injector.get(AbstractTrainsModel),
-        }
     }
 
     private createApolloServer() {

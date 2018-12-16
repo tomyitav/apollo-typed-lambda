@@ -5,18 +5,16 @@ import {AbstractLogger} from "./logger/AbstractLogger";
 import {AbstractSetting} from "./config/AbstractSetting";
 import {Setting} from "./config/Setting";
 import {Logger} from "./logger/Logger";
-import {CarsModel} from "../model/cars/CarModel";
-import {AbstractCarsModel} from "../model/cars/AbstractCarsModel";
-import {TrainsModel} from "../model/trains/TrainsModel";
-import {AbstractTrainsModel} from "../model/trains/AbstractTrainsModel";
+import {CarsService} from "../services/cars/CarsService";
+import {TrainsService} from "../services/trains/TrainsService";
 import {Injector, ReflectiveInjector} from 'injection-js';
 
 let injector: Injector = ReflectiveInjector.resolveAndCreate([
     {provide: AbstractLogger, useClass: Logger},
     {provide: AbstractSetting, useClass: Setting},
-    {provide: AbstractCarsModel, useClass: CarsModel},
-    {provide: AbstractTrainsModel, useClass: TrainsModel},
-    {provide: Server, useClass: Server}
+    CarsService,
+    TrainsService,
+    Server
     ]);
 
 export default injector;
