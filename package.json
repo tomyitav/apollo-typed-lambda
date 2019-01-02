@@ -37,7 +37,7 @@
     "@types/node": "8.10.38",
     "graphql-code-generator": "0.12.5",
     "graphql-codegen-typescript-template": "0.12.5",
-    "rimraf": "2.6.2",
+    "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.0.1",
     "serverless-offline": "3.31.3",
     "typescript": "3.2.2"
