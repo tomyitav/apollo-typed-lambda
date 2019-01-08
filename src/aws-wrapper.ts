@@ -1,3 +1,4 @@
+require('module-alias/register');
 import injector from "./core/injector";
 import {Server} from "./server";
 
