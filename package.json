@@ -28,7 +28,7 @@
     "graphql": "14.0.2",
     "graphql-tools": "4.0.2",
     "injection-js": "2.2.1",
-    "merge-graphql-schemas": "1.5.7",
+    "merge-graphql-schemas": "1.5.8",
     "reflect-metadata": "0.1.10",
     "zone.js": "0.8.18"
   },
