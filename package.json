@@ -28,7 +28,7 @@
   "dependencies": {
     "apollo-server-lambda": "2.2.0",
     "core-js": "2.5.7",
-    "graphql": "14.0.2",
+    "graphql": "14.1.1",
     "graphql-tools": "4.0.2",
     "injection-js": "2.2.1",
     "merge-graphql-schemas": "1.5.8",
@@ -37,7 +37,7 @@
     "zone.js": "0.8.18"
   },
   "devDependencies": {
-    "@types/graphql": "14.0.3",
+    "@types/graphql": "14.0.5",
     "@types/node": "8.10.38",
     "graphql-code-generator": "0.12.5",
     "graphql-codegen-typescript-template": "0.12.5",
