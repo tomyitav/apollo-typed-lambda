@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-schema": "rimraf ./dist/graphql/schema/ && dir /s /b \"src/graphql/types\" | findstr /e .ts > ts-files.txt && tsc ./src/graphql/schema/genereator-schema.ts --outDir ./dist/graphql/schema/ --lib esnext && tsc @ts-files.txt --outDir ./dist/graphql/types --lib esnext && del ts-files.txt",
-    "generate-ts": "gql-gen --template ts --out ./src/interfaces/types.d.ts --schema ./dist/graphql/schema/genereator-schema.js",
+    "generate-ts": "gql-gen",
     "pregenerate": "npm run build-schema",
     "generate": "npm run generate-ts",
     "clean": "rimraf dist",
@@ -26,24 +26,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-lambda": "2.2.0",
-    "core-js": "2.5.7",
-    "graphql": "14.0.2",
-    "graphql-tools": "4.0.2",
+    "apollo-server-lambda": "2.3.1",
+    "core-js": "2.6.2",
+    "graphql": "14.1.1",
+    "graphql-tools": "4.0.3",
     "injection-js": "2.2.1",
     "merge-graphql-schemas": "1.5.8",
-    "module-alias": "^2.1.0",
-    "reflect-metadata": "0.1.10",
-    "zone.js": "0.8.18"
+    "module-alias": "2.1.0",
+    "reflect-metadata": "0.1.13",
+    "zone.js": "0.8.29"
   },
   "devDependencies": {
-    "@types/graphql": "14.0.3",
-    "@types/node": "8.10.38",
-    "graphql-code-generator": "0.12.5",
-    "graphql-codegen-typescript-template": "0.12.5",
-    "rimraf": "2.6.2",
+    "@types/graphql": "14.0.5",
+    "@types/node": "10.12.18",
+    "graphql-code-generator": "0.16.0",
+    "graphql-codegen-typescript-client": "0.16.0",
+    "graphql-codegen-typescript-common": "0.16.0",
+    "graphql-codegen-typescript-server": "0.16.0",
+    "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.0.1",
-    "serverless-offline": "3.31.3",
-    "typescript": "3.2.2"
+    "serverless-offline": "4.1.4",
+    "typescript": "3.2.4"
   }
 }
