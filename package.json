@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-schema": "rimraf ./dist/graphql/schema/ && dir /s /b \"src/graphql/types\" | findstr /e .ts > ts-files.txt && tsc ./src/graphql/schema/genereator-schema.ts --outDir ./dist/graphql/schema/ --lib esnext && tsc @ts-files.txt --outDir ./dist/graphql/types --lib esnext && del ts-files.txt",
-    "generate-ts": "gql-gen --template ts --out ./src/interfaces/types.d.ts --schema ./dist/graphql/schema/genereator-schema.js",
+    "generate-ts": "gql-gen",
     "pregenerate": "npm run build-schema",
     "generate": "npm run generate-ts",
     "clean": "rimraf dist",
@@ -39,11 +39,13 @@
   "devDependencies": {
     "@types/graphql": "14.0.5",
     "@types/node": "10.12.18",
-    "graphql-code-generator": "0.12.5",
-    "graphql-codegen-typescript-template": "0.12.5",
+    "graphql-code-generator": "0.16.0",
+    "graphql-codegen-typescript-client": "0.16.0",
+    "graphql-codegen-typescript-common": "0.16.0",
+    "graphql-codegen-typescript-server": "0.16.0",
     "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.0.1",
     "serverless-offline": "4.1.4",
-    "typescript": "3.2.2"
+    "typescript": "3.2.4"
   }
 }
