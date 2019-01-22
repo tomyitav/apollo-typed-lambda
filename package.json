@@ -26,24 +26,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-lambda": "2.2.0",
-    "core-js": "2.5.7",
-    "graphql": "14.0.2",
-    "graphql-tools": "4.0.2",
+    "apollo-server-lambda": "2.3.1",
+    "core-js": "2.6.2",
+    "graphql": "14.1.1",
+    "graphql-tools": "4.0.3",
     "injection-js": "2.2.1",
     "merge-graphql-schemas": "1.5.8",
-    "module-alias": "^2.1.0",
-    "reflect-metadata": "0.1.10",
-    "zone.js": "0.8.18"
+    "module-alias": "2.1.0",
+    "reflect-metadata": "0.1.13",
+    "zone.js": "0.8.29"
   },
   "devDependencies": {
-    "@types/graphql": "14.0.3",
-    "@types/node": "8.10.38",
+    "@types/graphql": "14.0.5",
+    "@types/node": "10.12.18",
     "graphql-code-generator": "0.12.5",
     "graphql-codegen-typescript-template": "0.12.5",
-    "rimraf": "2.6.2",
+    "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.0.1",
-    "serverless-offline": "3.31.3",
+    "serverless-offline": "4.1.4",
     "typescript": "3.2.2"
   }
 }
