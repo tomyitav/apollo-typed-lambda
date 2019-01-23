@@ -45,7 +45,7 @@
     "graphql-codegen-typescript-server": "0.16.0",
     "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.0.1",
-    "serverless-offline": "4.1.4",
+    "serverless-offline": "4.2.0",
     "typescript": "3.2.4"
   }
 }
