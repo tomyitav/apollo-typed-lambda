@@ -1,5 +1,12 @@
 # apollo-typed-lambda
 
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![renovate-app badge][renovate-badge]][renovate-app]
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
+
 Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda, using:
 
 + typescript
