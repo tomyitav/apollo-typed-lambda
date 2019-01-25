@@ -42,7 +42,7 @@ Or, you can do it in one command as:
 npm run sls:offline
 ```
 
-The server will run on port 3000. You can change this by editing config file.
+The server will run on port 3000. You can change this by editing the config file.
 
 ## Code Formatting
 
