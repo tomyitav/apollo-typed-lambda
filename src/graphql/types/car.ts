@@ -13,6 +13,6 @@ type Mutation {
   updateCarName(_id: String!, newName: String!): Car
 }
 
-`;
+`
 
-export default schema;
+export default schema

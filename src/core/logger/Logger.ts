@@ -1,14 +1,13 @@
-import {AbstractLogger} from "./AbstractLogger";
-import {Injectable} from "injection-js";
+import {AbstractLogger} from './AbstractLogger'
+import {Injectable} from 'injection-js'
 
 @Injectable()
-export class Logger extends AbstractLogger{
+export class Logger extends AbstractLogger {
+  constructor() {
+    super()
+  }
 
-    constructor() {
-        super();
-    }
-
-    log(level: string, message: string) {
-        console.log(level + ":" + " " + message);
-    }
+  public log(level: string, message: string) {
+    console.log(level + ':' + ' ' + message)
+  }
 }

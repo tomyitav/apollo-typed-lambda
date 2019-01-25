@@ -1,0 +1,17 @@
+{
+	"defaultSeverity": "error",
+	"extends": ["tslint:latest", "tslint-react", "tslint-eslint-rules", "tslint-config-prettier"],
+	"jsRules": {},
+	"rules": {
+		"newline-before-return": true,
+		"no-console": false,
+		"object-literal-sort-keys": false,
+		"no-submodule-imports": false,
+		"interface-name": [false, "always-prefix"],
+        "indent": [true, "spaces", 2],
+		"no-implicit-dependencies": false,
+		"variable-name": [true, "allow-leading-underscore"],
+		"ordered-imports": false
+	},
+	"rulesDirectory": []
+}
