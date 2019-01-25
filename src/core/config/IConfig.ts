@@ -1,13 +1,13 @@
 export interface IConfig {
-    server: ServerConfig,
-    log: LoggerConfig
+  server: ServerConfig
+  log: LoggerConfig
 }
 
 interface ServerConfig {
-    port: string,
+  port: string
 }
 
 interface LoggerConfig {
-    filename: string,
-    filedir: string
+  filename: string
+  filedir: string
 }

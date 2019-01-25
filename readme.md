@@ -25,11 +25,43 @@ npm install
 
 ## Starting the server locally
 
+Run:
+```
+npm run build
+```
+
+and
+
+```
+npm start
+```
+
+Or, you can do it in one command as:
+
 ```
 npm run sls:offline
 ```
 
 The server will run on port 3000. You can change this by editing config file.
+
+## Code Formatting
+
+We use Prettier and Tslint to format and enforce standards on our code. </br>
+Both will run on the project automatically before each commit. </br>
+
+Prettier rewrites code according to the .prettierrc.json configuration file. </br>
+If you want to activate prettier manually (on all .ts files inside src folder) without committing, run: </br>
+
+```
+npm run prettier
+```
+
+Tslint will check rules found in the tslint.json configuration file. <br/>
+If you want to check tslint manually (on all .ts files inside src folder) without committing, run: </br>
+
+```
+npm run tslint
+```
 
 ## Run server in production on AWS lambda :rocket:
 First, make sure you have the [serverless platform](https://serverless.com/) installed. Then, execute the following command:
