@@ -7,7 +7,9 @@
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
 [renovate-app]: https://renovateapp.com/
 
-Deploying [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda, using:
+Boilerplate project for [generate-graphql-app](https://github.com/tomyitav/generate-graphql-app) cli.
+
+Deploy [graphql-server-typed](https://github.com/tomyitav/graphql-server-typed) on AWS lambda, using:
 
 + typescript
 + apollo-server 2
