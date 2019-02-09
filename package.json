@@ -46,7 +46,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-lambda": "2.3.3",
-    "core-js": "2.6.3",
+    "core-js": "2.6.4",
     "graphql": "14.1.1",
     "graphql-tools": "4.0.4",
     "injection-js": "2.2.1",
