@@ -56,7 +56,7 @@
     "zone.js": "0.8.29"
   },
   "devDependencies": {
-    "@types/graphql": "14.0.5",
+    "@types/graphql": "14.0.7",
     "@types/node": "10.12.27",
     "graphql-code-generator": "0.18.0",
     "graphql-codegen-typescript-client": "0.18.0",
