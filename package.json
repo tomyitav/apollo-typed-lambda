@@ -53,7 +53,7 @@
     "merge-graphql-schemas": "1.5.8",
     "module-alias": "2.2.0",
     "reflect-metadata": "0.1.13",
-    "zone.js": "0.8.29"
+    "zone.js": "0.9.0"
   },
   "devDependencies": {
     "@types/graphql": "14.0.7",
