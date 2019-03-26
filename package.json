@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@types/graphql": "14.0.7",
-    "@types/node": "10.14.3",
+    "@types/node": "10.14.4",
     "graphql-code-generator": "0.18.0",
     "graphql-codegen-typescript-client": "0.18.0",
     "graphql-codegen-typescript-common": "0.18.0",
