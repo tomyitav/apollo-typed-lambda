@@ -47,7 +47,7 @@
   "dependencies": {
     "apollo-server-lambda": "2.4.8",
     "core-js": "3.0.1",
-    "graphql": "14.2.1",
+    "graphql": "14.3.0",
     "graphql-tools": "4.0.4",
     "injection-js": "2.2.1",
     "merge-graphql-schemas": "1.5.8",
