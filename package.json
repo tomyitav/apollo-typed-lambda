@@ -71,7 +71,7 @@
     "lint-staged": "8.2.1",
     "prettier": "1.18.2",
     "rimraf": "2.6.3",
-    "serverless-dotenv-plugin": "2.1.1",
+    "serverless-dotenv-plugin": "2.4.2",
     "serverless-offline": "5.3.3",
     "tslint": "5.18.0",
     "tslint-config-prettier": "1.18.0",
