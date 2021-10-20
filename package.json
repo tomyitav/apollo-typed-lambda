@@ -62,9 +62,9 @@
     "zone.js": "0.9.1"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "1.2.1",
-    "@graphql-codegen/typescript": "1.2.1",
-    "@graphql-codegen/typescript-operations": "1.2.1",
+    "@graphql-codegen/cli": "1.21.8",
+    "@graphql-codegen/typescript": "1.23.0",
+    "@graphql-codegen/typescript-operations": "1.18.4",
     "@types/graphql": "14.2.1",
     "@types/node": "12.0.12",
     "husky": "2.4.1",
