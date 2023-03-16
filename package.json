@@ -72,7 +72,7 @@
     "prettier": "1.18.2",
     "rimraf": "2.6.3",
     "serverless-dotenv-plugin": "2.1.1",
-    "serverless-offline": "5.3.3",
+    "serverless-offline": "10.2.1",
     "tslint": "5.18.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-eslint-rules": "5.4.0",
